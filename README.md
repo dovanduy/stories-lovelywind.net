@@ -1,2 +1,2 @@
-# image-lovelywind.net
-Website img.lovelywind.net
+# stories-lovelywind.net
+Website truyen.lovelywind.net
