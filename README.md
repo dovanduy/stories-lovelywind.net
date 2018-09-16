@@ -1,2 +1,2 @@
-# stories-lovelywind.net
+# stories-lovelywind
 Website truyen.lovelywind.net
