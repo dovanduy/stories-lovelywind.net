@@ -1,0 +1,41 @@
+RewriteEngine on
+
+RewriteRule ^Data+(.*)$ homepage [L]
+RewriteRule ^include/database-class.php+(.*)$ homepage [L]
+RewriteRule ^include/function.php+(.*)$ homepage [L]
+
+
+RewriteRule ^the-loai/([a-zA-Z_-]{1,})/([a-zA-Z_-]{1,})/trang-([0-9]{1,10})+(.*)$ category/category.php?id=$1&action=type&status=$2&page=$3 [L]
+RewriteRule ^the-loai/([a-zA-Z_-]{1,})/trang-([0-9]{1,10})+(.*)$ category/category.php?id=$1&action=type&page=$2 [L]
+RewriteRule ^the-loai/([a-zA-Z_-]{1,})/([a-zA-Z_-]{1,})+(.*)$ category/category.php?id=$1&action=type&status=$2 [L]
+RewriteRule ^the-loai/([a-zA-Z_-]{1,})+(.*)$ category/category.php?id=$1&action=type [L]
+RewriteRule ^the-loai+(.*)$ category/category.php [L]
+
+RewriteRule ^quoc-gia/([a-zA-Z_-]{1,})/([a-zA-Z_-]{1,})/trang-([0-9]{1,10})+(.*)$ category/category.php?id=$1&action=country&status=$2&page=$3 [L]
+RewriteRule ^quoc-gia/([a-zA-Z_-]{1,})/trang-([0-9]{1,10})+(.*)$ category/category.php?id=$1&action=country&page=$2 [L]
+RewriteRule ^quoc-gia/([a-zA-Z_-]{1,})/([a-zA-Z_-]{1,})+(.*)$ category/category.php?id=$1&action=country&status=$2 [L]
+RewriteRule ^quoc-gia/([a-zA-Z_-]{1,})+(.*)$ category/category.php?id=$1&action=country [L]
+RewriteRule ^quoc-gia+(.*)$ category/category.php [L]
+
+RewriteRule ^danh-sach/([a-zA-Z_-]{1,})/([a-zA-Z_-]{1,})/trang-([0-9]{1,10})+(.*)$ category/category.php?id=$1&action=list&status=$2&page=$3 [L]
+RewriteRule ^danh-sach/([a-zA-Z_-]{1,})/trang-([0-9]{1,10})+(.*)$ category/category.php?id=$1&action=list&page=$2 [L]
+RewriteRule ^danh-sach/([a-zA-Z_-]{1,})/([a-zA-Z_-]{1,})+(.*)$ category/category.php?id=$1&action=list&status=$2 [L]
+RewriteRule ^danh-sach/([a-zA-Z_-]{1,})+(.*)$ category/category.php?id=$1&action=list [L]
+RewriteRule ^danh-sach+(.*)$ category/category.php [L]
+
+RewriteRule ^tim-kiem/(.*)$ category/category.php/$1 [L]
+RewriteRule ^tim-kiem+(.*)$ category/category.php [L]
+
+RewriteRule ^loc-truyen/(.*)$ category/category.php/$1 [L]
+RewriteRule ^loc-truyen+(.*)$ category/category.php [L]
+
+RewriteRule ^([a-zA-Z0-9_-]{1,})/([0-9]{1,10}).html$ single/single.php?id=$2 [L]
+RewriteRule ^([a-zA-Z0-9_-]{1,})/([0-9]{1,10})/trang-([0-9]{1,10}).html$ single/single.php?id=$2&page=$3 [L]
+RewriteRule ^([a-zA-Z0-9_-]{1,})/(.*)/([0-9]{1,10}).html$ single/reading.php?id=$3 [L]
+
+
+
+
+
+
+

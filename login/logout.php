@@ -1,0 +1,9 @@
+<?php 
+	session_start();
+	include("../include/function.php");
+	if(isset($_SESSION['p_email']))
+	{
+		session_destroy();
+	}
+	redirect_to("../login/login.php");
+?>
