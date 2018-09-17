@@ -1,5 +1,5 @@
 <?php
-	include("include/function.php");
+	require("include/function.php");
 	$db = new database;
 	$db->connect();
 ?>
@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="shortcut icon" href="images/favicon.ico"> 
-<link href="homepage/responsive.css" rel="stylesheet" type="text/css" />
+<link href="homepage/responsive-home.css" rel="stylesheet" type="text/css" />
 <link href="include/css/all.min.css" rel="stylesheet" type="text/css" />
 <script src="include/jquery.js"></script>
 <script src="homepage/homepage.js"></script>

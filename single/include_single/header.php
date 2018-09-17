@@ -1,5 +1,5 @@
 <?php
-	include("../include/function.php");
+	require("../include/function.php");
 	$db = new database;
 	$db->connect();
 ?>

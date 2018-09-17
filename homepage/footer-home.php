@@ -1,0 +1,1 @@
+<?php require('include/public-template/footer-public.php'); ?>

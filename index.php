@@ -1,6 +1,6 @@
 ﻿<?php 
-	include('homepage/header.php');
-	include('homepage/top.php');
-	include('homepage/center.php');
-	include('homepage/footer.php');	
+	require('homepage/header-home.php');
+	require('homepage/top-home.php');
+	require('homepage/center-home.php');
+	require('homepage/footer-home.php');	
 ?>

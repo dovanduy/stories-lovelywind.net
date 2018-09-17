@@ -152,7 +152,7 @@ $(document).ready(function(e) {
 				{
 					page='trang-'+$('#send_page').attr('page')+'/';
 				} else page="";
-				window.location.assign('../../../../../../'+link_rule+'/'+status+'/'+page);
+				window.location.assign('../../../../../../truyen/'+link_rule+'/'+status+'/'+page);
 			}
 		}
 	}

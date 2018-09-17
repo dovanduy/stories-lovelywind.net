@@ -1,13 +1,13 @@
 /*----------RESPONSIVE----------*/
-@import url("phone.css") only screen and (max-width:760px);
-@import url("tablet.css") only screen and (min-width:761px) and (max-width:1040px);
-@import url("destop.css") only screen and (min-width:1041px);
+@import url("phone-cat.css") only screen and (max-width:760px);
+@import url("tablet-cat.css") only screen and (min-width:761px) and (max-width:1040px);
+@import url("destop-cat.css") only screen and (min-width:1041px);
 .switch
 {
 	height:0px;
 	position:fixed;
-    /*top:calc( 50% - 1.2em );*/
-    bottom:3em;
+	/*top:calc( 50% - 1.2em );*/
+	bottom:3em;
 	width:100%;
 	z-index:999;
 }

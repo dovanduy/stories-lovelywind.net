@@ -1,6 +1,6 @@
 <?php 
-	include('include_single/header.php');
-	include('include_single/top_reading.php');
-	include('include_single/center_reading.php');
-	include('include_single/footer.php');
+	require('include_single/header.php');
+	require('include_single/top-reading.php');
+	require('include_single/center-reading.php');
+	require('include_single/footer.php');
 ?>
